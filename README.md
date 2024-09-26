@@ -11,6 +11,7 @@ winget install -e --id Git.Git
 winget install -e --id Python.Python.3.11
 winget install -e --id Microsoft.VisualStudioCode
 ```
+- Open up vscode, and install the Postman Extension
 
 #### MacOS (using [homebrew](https://brew.sh) )
 
@@ -29,6 +30,7 @@ brew install git
 brew install python
 brew install --cask visual-studio-code
 ```
+- Open up vscode, and install the Postman Extension
 
 ## Uninstallation instructions (Optional)
 

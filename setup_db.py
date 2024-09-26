@@ -1,5 +1,4 @@
 import sqlite3
-from pprint import pp 
 
 def create_table():
     conn = sqlite3.connect("bookmarks.db")
@@ -67,4 +66,4 @@ insert("Wikipedia", "www.wikipedia.org")
 insert("Microsoft", "www.microsoft.com")
 insert("Linux", "www.linux.org")
 update_by_name("Google", "Bing")
-pp(view())
+print(view())
